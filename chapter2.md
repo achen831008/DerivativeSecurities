@@ -58,6 +58,57 @@ The Clearing House and Clearing Margins
 
 > A **clearing house** acts as an intermediary in futures transactions. It guarantees the performance of the parties to each transaction. The main task of the clearing house is to keep track of all the transactions that take place during a day, so that it can calculate the net position of each of its members.
 
-Over-the-counter Markets
+Market Quotes
 ========================
+Futures quotes are available from exchanges and from several online sources (see, for example, futures.tradingcharts.com/marketquotes).
+
+Prices
+------
+ - Opening price
+ - Highest Price achieved in trading during the day
+ - Lowest price achieved in trading during the day
+
+Settlement Price
+----------------
+This is the price used for calculating daily gains and losses and margin requirements. It is usually calculated as the price at which the contract traded immediately before the end of a day’s trading session (1:30 p.m. for gold).
+
+The Change in the Settlement price is the delta of today's and previous day's settlement price.
+
+Trading Volume and Open Interest
+--------------------------------
+The **trading volume** is the number of contracts *traded*.
+The **open interest** is the number of contracts *outstanding*, that is, the number of long positions, or the number of short positions.
+
+Patterns of Futures Prices
+--------------------------
+Markets where the futures price is an **increasing** function of the time to maturity are known as **normal markets**. Markets where the futures price **decreases** with the maturity of the futures contract are known as **inverted markets**.
+
+Delivery
+========
+The decision on **when to deliver** is made by the party with the **short position**, whom we shall refer to as investor A. When investor A decides to deliver, investor A’s broker issues a **notice of intention to deliver** to the exchange clearing house. This notice states how many contracts will be delivered. The exchange then chooses a party with a long position to accept delivery.
+
+Forward vs. Futures Contracts
+=============================
+
+**Comparison of forward and futures contracts:**
+
+| Forwards                             | Futures                        |
+|--------------------------------------|--------------------------------|
+| Private contract between two parties | Traded on an exchange          |
+| Not standardized                     | Standardized contract          |
+| Usually one specified delivery date  | Range of delivery dates        |
+| Settled at end of contract           | Settled daily                  |
+| Delivery or final cash settlement    | Contract is usually closed out |
+| Usually takes place                  | prior to maturity              |
+| Some credit risk                     | Virtually no credit risk       |
+
+
+Foreign Exchange Quotes
+-----------------------
+
+> **Futures prices** where one currency is the USD are always quoted as **the number of USD per unit of the foreign currency**.
+
+> **Forward prices** are always quoted in the same way as spot prices. For `the British pound`, `the euro`, `the Australian dollar`, and `the New Zealand dollar`, the forward quotes show **the number of US dollars per unit of the foreign currency** and are directly comparable with futures quotes. For `other major currencies`, forward quotes show **the number of units of the foreign currency per US dollar** (USD). 
+
+For example, consider the Canadian dollar (CAD). A futures price quote of 0.9500 USD per CAD corresponds to a forward price quote of 1.0526 CAD per USD (1.0526 = 1/0.9500).
 
