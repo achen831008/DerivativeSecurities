@@ -90,7 +90,24 @@ $119.711 - 6 * \frac{148}{148+35} = 114.859$
 The quoted futures price should be
 $\frac{114.859}{1.6000} = 71.79$
 
+EuroDollar Futures
+==================
 
+> Eurodollar is a dollar deposited in a U.S. or foreign bank outside the U.S.
+> Eurodollar interest rate is the rate of interest earned on Eurodollars deposited by one bank with another bank.
+> Settlement price is set equal to 100 - R, where R is the actual three-month Eurodollar interest rate.
+> One basis point change in the futures quote corresponds to a 0.01% change in the futures interest rate.
+
+Contract price is $10,000 * [100 - 0.25 * (100 - Q)]$
+
+Duration-Based Hedging Strategies Using Futures
+==================
+
+Number of contracts required to hedge against a uncertain change in yield, therefore, is 
+
+$N^* = \frac{P D_P}{V_F D_F}$
+
+This is the duration-based hedge ratio (price sensitivity hedge ratio).
 
 
 
