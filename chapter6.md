@@ -5,9 +5,9 @@ Day Count and Quotation Conventions
 
 Day Count Conventions:
 
- 1. Actual/actual (in period)
- 2. 30/360
- 3. Actual/360
+ 1. Actual/actual (i.e. Treasury Bonds)
+ 2. 30/360 (i.e. Corporate and Municipal Bonds)
+ 3. Actual/360 (i.e. Treasury Bills)
 
 Price Quotations of US Treasury Bills
 -------------------------------------
