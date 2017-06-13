@@ -22,6 +22,7 @@ Price Quotations of US Treasury Bonds
 > Treasury bond prices in US are quoted in dollars and thirty-seconds of a dollar. The quoted price is for a bond with a face value of \$100. Thus a quote of 90-05 indicates that the quoted price for a bond with a face value of \$100,000 is \$90,156.25.
 
 > Quoted price is referred to as the clean price
+
 > Cash price is referred to as the dirty price
 
 Cash price = Quoted price + Accrued interest since last coupon date
@@ -36,6 +37,7 @@ Days Since: 21+28+5 = 54
 Total Days: 21+28+31+30+31+30+10 = 181
 
 Accrued Interest = 54/181 * 11%/2 * 100 = $1.64
+
 Cash Price = 95.5 + 1.64 = 97.14
 
 Treasury Bond Futures
