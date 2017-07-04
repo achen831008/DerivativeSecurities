@@ -32,7 +32,7 @@ $V_{swap} = B_{fix} - B_{fl}$
 
 > Suppose that a financial institution has agreed to pay 6-month LIBOR and receive 8% per annum on a notional principal of 100 million. The swap has a remaining life of  1.25 years. The LIBOR rates with continuous compounding for 3-month, 9-month, and 15-month maturities are 10%, 10.5%, and 11% respectively. The 6-month LIBOR rate at the last payment date was 10.2%.
 
-The discount factors for these cash flows are $e^{-0.1*0.25}$, $e^{-0.105*0.25}$, $e^{-0.11*0.25}$ respectively.
+The discount factors for these cash flows are $e^{-0.1 * 0.25}$, $e^{-0.105 * 0.25}$, $e^{-0.11 * 0.25}$ respectively.
 
 |Time |$B_{fix}$ cash flow|$B_{fl}$ cash flow|Discount factor|PV($B_{fix}$)|PV($B_{fl}$)|
 |-----|-----|-----|------|------|-------|
