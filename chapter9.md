@@ -25,12 +25,17 @@ Long position: $max(K - S_T, 0)$
 Short position: $min(S_T - K, 0)$
 
 **Upper bound**
+
 $C = S_T$
+
 $P = Ke^{-rT}$ for European option
+
 $P = K$ for American option
 
 **Lower bound**
+
 $C = S_T - Ke^{-rT} - PV(Div)$
+
 $P = Ke^{-rT} - S_T + PV(Div)$
 
 **Factors that would affect Option Value**
