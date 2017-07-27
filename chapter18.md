@@ -87,7 +87,25 @@ If vega is highly positive or negative, the portfolio's value is very sensitive 
 $\nu = S_0 \sqrt{T} N'(d_1)$
 
 
+Theta
+=====
+
+The $\theta$ of a portfolio of options is the rate of change of the value of the portfolio with respect to the passage of time with all else remaining the same. Theta is sometimes referred to as the time decay of the portfolio. 
+
+$\theta(call) = - \frac {S_0N'(d_1)\sigma} {2\sqrt{T}} - rKe^{-rT} N(d_2)$
+
+$\theta(put) = - \frac {S_0N'(d_1)\sigma} {2\sqrt{T}} + rKe^{-rT} N(-d_2)$
+
+Theta is usually negative for an option. This is because, as time passes with all else remaining the same, the option tends to become less valuable.
 
 
+RHO
+===
 
+The $rho$ of a portfolio of options is the rate of change of the value of the portfolio with respect to the interest rate. It measures the sensitivity of the value of a portfolio to a change in the interest rate.
 
+For a European call option on a non-dividend-paying stock, rho(call) = $KTe^{-rT} N(d_2)$
+
+For a European put option, rho(put) = $-KTe^{-rT} N(-d_2)$
+
+If option's rho is 8.91, this means that a 1% increase in the risk-free rate increases the value of the option approximately 8.91%.
