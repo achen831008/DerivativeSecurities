@@ -4,11 +4,13 @@ Types of Options
 ================
 
 **Call** Option - gives the holder of the option the right to **buy** an asset by a certain date for a certain price.
+
 **Put** Option - gives the holder the right to **sell** an asset by a certain date for a certain price.
 
 The date specified in the contract is known as the **expiration** date. The price specified in the contract is known as the **exercise** price or the **strike** price.
 
 **American** Options can be exercised at any time up to the expiration date.
+
 **European** Options can be exercised only on the expiration date itself.
 
 **Note**: Buyer pays seller (writer) fees.
@@ -17,11 +19,15 @@ Payoffs
 =======
 
 **European call option**
+
 Long position: $max(S_T - K, 0)$
+
 Short position: $min(K - S_T, 0)$
 
 **European put option**
+
 Long position: $max(K - S_T, 0)$
+
 Short position: $min(S_T - K, 0)$
 
 **Upper bound**
@@ -50,6 +56,7 @@ An increase in the following list of factor would change the value of option.
 |   r   |   Up  |  Down |
 |  Div  |  Down |   Up  |
 |  Vol  |   Up  |   Up  |
+
 
 Dividends and Stock Splits
 ==========================
